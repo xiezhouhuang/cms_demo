@@ -1,0 +1,365 @@
+  .logo_box{
+    height: 73px;
+    padding: 10px 0px;
+    background-color: #1f1a17;
+  }
+  .logo_box .layui-col-sm1{
+    text-align: center;
+    padding: 8px 0px;
+  }
+  .logo_box .layui-col-sm1 a{
+    color: #FFF;
+  }
+  .logo_box .layui-col-sm1 a:hover{
+    color: #F00;
+  }
+  .logo_box .layui-col-sm1 i{
+    font-size: 30px;
+  }
+  footer .footer-top{
+    background:#323c46;
+    padding: 20px;
+    text-align: center;
+  }
+  footer .footer-bottom{
+    padding: 20px;
+    text-align: center;
+  }
+  footer .layui-breadcrumb a,footer .footer-top p{
+    color: #FFF  !important;
+  }
+  .breadcrumb-box{
+    padding: 10px 0px;
+  }
+  .notice_box{
+    border: 1px solid  #CCC;
+    margin: 5px 0px;
+    padding: 5px;
+    line-height: 30px;
+    vertical-align: middle;
+    padding-left: 30px;
+  }
+  .left-nav .layui-table td{
+    padding: 8px 6px;
+  }
+  .left-nav .layui-table .layui-badge-rim{
+    height: auto;
+    text-align: center;
+  }
+  .tuijian-table{
+    text-align: center;
+  }
+  .index-tab .layui-tab-title {
+    border-bottom: 4px solid #da251c;
+  }
+  .index-tab .layui-tab-title .layui-this{
+    background:#da251c;
+    color: #FFF;
+  }
+  .index-tab .layui-tab-title li{
+    background:#965f29;
+    color: #FFF; 
+    margin-right: 10px;
+    padding: 0px 20px;
+    line-height: 30px;
+    vertical-align: bottom;
+  }
+  .layui-tab-title{
+    height: 30px;
+  }
+  .index-tab .layui-tab-title .layui-this:after{
+    display: none;
+  }
+  .index-tab .layui-tab-content{
+    padding: 10px 0px;
+  }
+  .index-product .product-content p{
+    padding: 3px 0px;
+    font-size: 14px;
+  }
+  .index-product{
+    padding-left: 8px;border: 1px solid #e5e5e5; margin: 10px 0px;
+  }
+  .index-product .cate_img{
+  }
+  .index-product .cate_img img{
+    margin-left: -29px;
+    margin-top: -1px;
+    margin-bottom: -1px;
+    width:100%;
+    height:50px;
+  }
+  .index-product .product-title{
+    height: 50px;text-align: center;border: 1px solid #e5e5e5;border-left: none;
+  }
+  .index-product .product-title .layui-row{
+    padding: 4px 0px;
+  }
+  .index-product .product-title span{
+    font-size: 16px;
+  }
+  .ss-buy .layui-table th{
+    /*text-align: center;*/
+  }
+  .layui-text p{
+    padding: 5px 0px;
+  }
+  .layui-text h1{
+    padding: 20px 10px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .layui-text h2{
+    padding: 10px 5px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .layui-text h3{
+    padding: 5px 5px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .layui-table-center td,.layui-table-center th{
+    text-align: center;
+  }
+
+  .member-content .left-box{
+    padding: 16px 0px;
+    width: 100%;
+    text-align: center;
+   }
+   .member-content .left-box i{
+      font-size: 40px;
+      padding: 15px;
+   }
+   .member-content .left-box a:hover {
+      color: #da251c;
+   }
+   .member-content    .right-top{
+      border: 1px solid #CCC;
+   }
+   .member-content  .right-top .layui-col-sm4{
+    height: 35px;
+    line-height: 35px;
+    margin:8px 0px;
+    vertical-align: middle;
+    text-align: center;
+   }
+   .member-content  .right-top i{
+      font-size: 26px;
+   }
+   .member-content  .right-top span{
+      font-size: 18px;
+   }
+   .like-table .layui-table tbody tr:hover, .member-content .like-table .layui-table-hover{
+      background: none !important;
+   }
+   .ul-table .layui-table tbody tr:hover,.ul-table .layui-table-hover{
+      background: #da251c !important;
+      color: #FFF;
+   }
+   .ul-table .layui-table-hover a,.ul-table .layui-table tbody tr:hover a{
+      color: #FFF;
+   }
+   .member-content .h1-border{
+    border-bottom:3px solid #da251c;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 30px;
+    padding: 10px 30px;
+    color: #da251c;
+  }
+  .member-content .h1-border-right{
+    font-size: 14px;
+    color: #da251c;
+    float: right;
+    padding: 0px 30px;
+  }
+  .member-content .leixing{
+    text-align: center;
+    padding: 5px;
+  }
+  .member-content .leixing b{
+    font-size: 18px;
+  }
+  .member-content .leixing span{
+    font-size: 12px;
+    font-weight: normal;
+  }
+  .layui-table.small-table-padding th, .layui-table.small-table-padding td{
+    padding: 4px 8px;
+  }
+  .layui-table.normal-table-padding th, .layui-table.normal-table-padding td{
+    padding: 10px;
+  }
+  .bottom-border{
+    border-bottom: 1px solid #ccc;
+  }
+  .layui-table img{
+    max-width:inherit;
+  }
+  .page-content{
+      background-color: #FFF;
+      border: 1px solid #CCC;
+      margin-top:-20px;
+      margin-bottom:20px;
+      padding: 34px;
+      box-shadow: 3px 6px 10px #888888;
+   }
+  .page-content .layui-col-sm9 h1{
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: normal;
+    color: #da251c;
+    border-bottom:2px solid #da251c;
+  }
+  .page-content .layui-col-sm9 h2{
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: normal;
+    color: #5b95ba;
+    border-bottom:2px solid #5b95ba;
+  }
+   .page-content .layui-col-sm9 p{
+    line-height: 26px;
+    padding-bottom: 15px;
+    text-indent: 26px;
+   }
+   .page-sub-content{
+      background-color: #FFF;
+      border: 1px solid #CCC;
+      
+   }
+   .page-sub-content h3{
+    margin: 10px 0px;
+      font-size: 16px;
+      font-weight: normal;
+      padding: 5px 10px;
+      border: 1px solid #CCC;
+   }
+   .page-sub-content h4{
+      margin: 20px 0px;
+      font-size: 14px;
+      font-weight: normal;
+      padding: 5px 10px;
+   }
+   .page-sub-content .layui-col-sm9{
+    border-left: 1px solid #CCC;padding:20px;min-height: 400px;
+   }
+   .layui-table.layui-table-no-padding tr td{
+    padding: 0px;
+   }
+   .layui-table{
+    margin: 4px 0px;
+   }
+   .index-product-item{
+    height: 260px; border-bottom: 1px dashed #CCC ;width: 345px;float: left;padding-top: 10px; 
+   }
+   .index-product-item2{
+    border-right: 1px dashed #CCC;
+    padding-left: 5px;
+   }
+   .index-product-item-table{
+    height: 50px;border: 1px solid #CCC; margin-left: 20px;width: 308px;padding: 0px;
+   }
+   .tab-right-link{
+    float: right;padding:2px 5px;margin:0px 10px; position: relative;z-index: 999;
+    border-radius: 2px;
+   }
+  .buy-btn{
+        background: url('../img/buy_hover.png') no-repeat center;
+        width: 141px;
+        height: 31px;
+        line-height: 31px;
+    }
+  .buy-btn:hover{
+        background: url('../img/buy.png')  no-repeat center;
+  }
+  .buy-btn-red{
+        background: url('../img/buy.png')  no-repeat center;
+        width: 141px;
+        height: 31px;
+        line-height: 31px;
+    }
+  .buy-btn-red:hover{
+        background: url('../img/buy_hover.png')  no-repeat center;
+  }
+
+  .zhongjian-btn{
+        background: url('../img/zj_btn.png')  no-repeat center;
+        width: 141px;
+        height: 31px;
+        line-height: 31px;
+    }
+  .zhongjian-btn:hover{
+        background: url('../img/zj_btn_hover.png')  no-repeat center;
+  }
+
+  article{
+    background-color: #f1f1f3;
+  }
+  article .layui-container{
+    background-color: #FFF;
+  }
+  article .layui-col-space20{
+    margin-bottom: 0px;
+  }
+  article .layui-col-space15{
+    margin-bottom: 0px;
+  }
+
+  .layui-form-item{
+    margin-bottom:5px;
+  }
+  .layui-form-label{
+    padding:6px;
+  }
+  .layui-input{
+    height: 28px;
+  }
+  .member-content  .member-info{
+      margin: 0 20px;
+  }
+  .member-content .member-box{
+    border: 1px solid #CCC;
+  }
+
+  .member-box .member-box-right{
+    width: 801px;
+    border-left: 1px solid #CCC;
+    min-height: 714px;
+  }
+  .breadcrumb-box {
+    padding: 10px;
+    color: #666;
+  }
+  .breadcrumb-box a {
+    color: #666;
+  }
+  .chongzhi-btn{
+    background: url('../img/chongzhi.png') no-repeat center; height: 44px;
+  }
+  .gerenzhongxin-btn{
+    background: url('../img/gerenzhongxin.png') no-repeat center; height: 44px;
+  }
+  a:hover .chongzhi-btn{
+    background: url('../img/chongzhi_hover.png') no-repeat center;
+  }
+  a:hover .gerenzhongxin-btn{
+    background: url('../img/gerenzhongxin_hover.png') no-repeat center;
+  }
+  .index-product-last{
+    border-bottom: none;
+  }
+  footer .page-footer-breadcrumb-box .layui-breadcrumb a{
+      color: #666 !important;
+  }
+  .border-box-text{
+    border: 1px solid #ccc;
+    padding: 20px 10px;
+  }
+  .border-box-text p{
+    line-height: 26px;
+    padding-bottom: 10px;
+    text-indent: 26px;
+  }

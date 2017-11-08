@@ -1,0 +1,119 @@
+#small-banner {
+    padding: 0px 10px;
+}
+#small-banner .carousel {
+    float: left;
+    margin-left: 20px;
+    margin-right: 10px;
+    /* Needed for rendering without flicker */
+    position: relative;
+    visibility: hidden;
+    left: -5000px;
+}
+
+    /* Styling for image based carousel content. Only width and height are mandatory */
+    #small-banner .carousel>ul>li>img {
+        width: 174px;
+        height: 80px;
+        vertical-align:middle;
+
+        /* optional */
+        margin: 10px 5px;
+    }
+
+    /* Styling for text based carousel content. Only width and height are mandatory */
+    #small-banner .carousel>ul>li>p {
+        width: 174px;
+        height: 80px;
+
+        margin: 10px 10px 10px 0;
+        border: 1px solid #808080;
+        border-radius: 5px;
+        line-height: normal;
+        background-color: #fff;
+        padding: 10px;
+    }
+
+/* Styles for PREV and NEXT anchor buttons */
+#small-banner a.prev, #small-banner a.next, #small-banner a.go {
+    display: block;
+    width: 26px;
+    height: 30px;
+    line-height: 1;
+    color: #b3b3b3;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 50px;
+    float: left;
+}
+    #small-banner a.prev.disabled, #small-banner a.next.disabled,
+    #small-banner a.prev.disabled:hover, #small-banner a.next.disabled:hover {
+        cursor: default;
+    }
+    #small-banner a.go.highlight {
+        background-color: #dedede;
+        color: #000;
+    }
+    #small-banner a.prev {
+        vertical-align: middle;
+        text-indent: 7px;
+        height: 95px;
+        line-height: 80px;
+        width: 40px;
+        font-size: 95px;
+    }
+    #small-banner a.next {
+        height: 95px;
+        line-height: 80px;
+        text-indent: 10px;
+        width: 40px;
+        font-size: 100px;
+    }
+        #small-banner a.prev:hover, #small-banner a.next:hover, #small-banner a.go:hover {
+            color: #666666;
+        }
+
+/* Additional carousel styles for external controls, slider, widget, mid etc. */
+
+#small-banner .externalControl button,
+#small-banner .imageSliderExt button {
+    margin: 5px 5px 0 0;
+}
+#small-banner .externalControl a.next, #small-banner .externalControl a.prev, #small-banner .externalControl a.go,
+#small-banner .imageSliderExt a.next, #small-banner .imageSliderExt a.prev, #small-banner .imageSliderExt a.go
+{
+    margin: 0 5px 0 0;
+    padding: 7px 5px 0 5px;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+#small-banner .widget img {
+    cursor: pointer;
+}
+#small-banner .mid {
+    margin-left: 50px;
+    width: 400px;
+    height: 300px;
+}
+#small-banner .vertical {
+    margin-left: 170px;
+}
+
+#small-banner .imageSlider .carousel>ul>li>img,
+#small-banner .imageSliderExt .carousel>ul>li>img {
+    width: 400px;
+    height: 300px;
+}
+#small-banner .imageSlider .carousel>ul>li>p,
+#small-banner .imageSliderExt .carousel>ul>li>p {
+    width: 380px;
+    height: 280px;
+}
+
+/* Other common styles */
+
+.clear {
+    clear: both;
+}
